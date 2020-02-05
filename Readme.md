@@ -4,7 +4,7 @@ This repo holds usage examples in C and Ruby:
 
 - `hello.c` and `hello.rb` are conventional Hello World programs, except
     it is R printing to the screen.
-- `test.c` and `test.rb` pass data and call R functions.
+- `test.c` and `test.rb` pass data and call R API functions.
 
 To compile and run the C examples:
 
