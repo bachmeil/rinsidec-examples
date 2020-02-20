@@ -1,7 +1,4 @@
-#include <Rinternals.h>
-void passToR(SEXP x, char * name);
-SEXP evalInR(char * cmd);
-void evalQuietlyInR(char * cmd);
+#include <RInsideC.h>
 
 int main() {
 	evalQuietlyInR("y <- 3");

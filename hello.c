@@ -1,4 +1,4 @@
-void evalQuietlyInR(char * cmd);
+#include <RInsideC.h>
 
 int main() {
 	evalQuietlyInR("print('Hello, World')");
