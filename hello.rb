@@ -5,7 +5,7 @@ require 'ffi'
 module R
   extend FFI::Library
   libdir = `Rscript -e \'cat(find.package("RInsideC"))\'`
-  ffi_lib "#{libdir}/libs/RInsideC.so"
+  ffi_lib "#{libdir}/lib/libRInsideC.so"
   attach_function :evalQuietlyInR, [ :string ], :void
 end
 
